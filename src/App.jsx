@@ -1,6 +1,6 @@
 // import React from 'react';
 import { useState } from 'react'
-import AreveiLogo from './assets/arevei favicon.png'
+// import AreveiLogo from './assets/arevei favicon.png'
 import './App.css'
 import SolarSystem from './pages/SolarSystem';
 import Hero from './pages/HeroSection';
@@ -16,6 +16,7 @@ import Footer from './pages/Footer';
 
 function App() {
   const words = ['WEB DEV', 'DIGITAL MARKETING', 'LOGO CREATION', 'WORDPRESS DEV'];
+  let AreveiLogo="https://i.ibb.co/fzFYYLby/arevei-favicon.png";
   return (
     <>
       <div className="md:flex items-center overflow-hidden min-h-[100vh]">

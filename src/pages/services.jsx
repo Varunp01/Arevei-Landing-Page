@@ -34,7 +34,7 @@ const Services = () => {
                 Boosting your online presence and reaching your ideal customers with data-driven strategies. Let's get your brand seen.
               </p>
               <div class="cover">
-                <img src="src\assets\DigitalM.png" alt="logo" />
+                <img src="https://i.ibb.co/67nBF848/DigitalM.png" alt="logo" />
               </div>
             </div>
           </div>
@@ -47,7 +47,7 @@ const Services = () => {
                 Building a e-commerce website that's not just beautiful, but also converts visitors into customers. Your digital storefront is perfected.
               </p>
               <div class="cover">
-                <img src="src\assets\WebD.png" alt="logo" />
+                <img src="https://i.ibb.co/JYYqpJg/WebD.png" alt="logo" />
               </div>
             </div>
           </div>
@@ -60,7 +60,7 @@ const Services = () => {
                 Crafting a brand identity that resonates and sets you apart from the competition. Make your mark.
               </p>
               <div class="cover">
-                <img src="src\assets\Branding.png" alt="logo" />
+                <img src="https://i.ibb.co/WWs8Gvnd/Branding.png" alt="logo" />
               </div>
             </div>
           </div>

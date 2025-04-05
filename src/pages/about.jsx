@@ -49,7 +49,7 @@ const About = () => {
 
           <br></br>
           <div className="flex justify-center my-10">
-            <img src="src\assets\arevei favicon.png" alt="LOGO" />
+            <img src="https://i.ibb.co/fzFYYLby/arevei-favicon.png" alt="LOGO" />
           </div>
           <br></br>
 
