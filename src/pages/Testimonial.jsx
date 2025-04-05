@@ -9,7 +9,7 @@ const Testimonial = () => {
         colors={["#AF3C52, #4466B0, #56ADAC, #6EBD71"]}
         animationSpeed={3}
         showBorder={false}
-        className="custom-class text-6xl text-center"
+        className="custom-class text-5xl text-center"
       >
         TESTIMONIALS
       </GradientText>
