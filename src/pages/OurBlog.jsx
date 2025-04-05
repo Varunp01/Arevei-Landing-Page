@@ -13,7 +13,7 @@ const OurBlog = () => {
       >
         OUR LATEST BLOGS
       </GradientText>
-      <div className="text-2xl text-center mb-10 bg-[#0F1014]">“Marketing Tips You’ll Actually Want to Read."</div>
+      <div className="text-2xl text-center mb-10 bg-black">“Marketing Tips You’ll Actually Want to Read."</div>
 
       <div className="ourblogCards flex justify-around flex-wrap">
 {/* ///////////////////////////////////////////////////////////////////////////////////////////// */}

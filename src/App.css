@@ -1,13 +1,12 @@
 body {
   color: white;
-  background-color: #0F1014;
+  background-color: black;
 }
-
 /* ///////////////////////////////////////////////////////////////// */
 /* SolarSystem.css */
 .solar-system-container {
   margin: auto auto auto auto;
-  background-color: #0F1014;
+  background-color: black;
   position: relative;
   /* width: 400px; */
   height: 400px;
@@ -222,7 +221,8 @@ body {
   transition: box-shadow 0.5s ease-out;
   overflow: hidden;
   cursor: pointer;
-  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
 .gradient-overlay {

@@ -13,7 +13,7 @@ const Testimonial = () => {
       >
         TESTIMONIALS
       </GradientText>
-      <div className="text-2xl text-center mb-10 bg-[#0F1014]">"Stories From Happy Clients."</div>
+      <div className="text-2xl text-center mb-10 bg-black">"Stories From Happy Clients."</div>
 
       <div className="TestimonialCards flex justify-around flex-wrap">
         {/* ///////////////////////////////////////////////////////////////////////////////////////////// */}

@@ -18,7 +18,7 @@ const WhyUs = () => {
       >
         WHY US
       </GradientText>
-      <div className="text-2xl text-center mb-10 bg-[#0F1014]">"Because Marketing Shouldn’t Feel Like a Full-Time Job."</div>
+      <div className="text-2xl text-center mb-10 bg-b">"Because Marketing Shouldn’t Feel Like a Full-Time Job."</div>
       <AnimatedList
         items={items}
         onItemSelect={(item, index) => console.log(item, index)}

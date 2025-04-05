@@ -16,39 +16,39 @@ import Footer from './pages/Footer';
 import Navbar from './pages/Navbar';
 
 function App() {
-  const words = ['WEB DEV', 'DIGITAL MARKETING', 'LOGO CREATION', 'WORDPRESS DEV'];
+  const words = ['WEB DEV', 'DIGITAL MARKETING', 'LOGO CREATION', 'WORDPRESS DEV', 'BRANDING'];
   let AreveiLogo="https://i.ibb.co/fzFYYLby/arevei-favicon.png";
   return (
     <>
-      <div className="Navbar fixed w-full">
+      <div className="Navbar fixed w-full !z-[999]">
         <Navbar></Navbar>
       </div>
-      <div className="md:flex items-center overflow-hidden min-h-[100vh]" id='navHome'>
+      <div className="md:flex items-center overflow-hidden min-h-[100vh] pt-[20px]" id='navHome'>
         <Hero></Hero>
         <SolarSystem centerImage={AreveiLogo} orbitingWords={words} />
       </div>
-      <div className="aboutus" id='navAbout'>
+      <div className="aboutus pt-[105px]" id='navAbout'>
         <About></About>
       </div>
-      <div className="Services my-20" id='navService'>
+      <div className="Services my-20 pt-[105px]" id='navService'>
         <Services></Services>
       </div>
-      <div className="HowWeWork mt-16">
+      <div className="HowWeWork mt-16 pt-[105px]">
         <HowWeWork></HowWeWork>
       </div>
       <div className="WhyUs mt-16 mb-16">
         <WhyUs></WhyUs>
       </div>
-      <div className="ClientAndProject mt-16">
+      <div className="ClientAndProject mt-16 pt-[105px]">
         <ClientAndProject></ClientAndProject>
       </div>
-      <div className="OurBlog mt-16 mb-20">
+      <div className="OurBlog mt-16 mb-20 pt-[105px]">
         <OurBlog></OurBlog>
       </div>
-      <div className="Testimonial mt-16 mb-20">
+      <div className="Testimonial mt-16 mb-20 pt-[105px]">
         <Testimonial></Testimonial>
       </div>
-      <div className="CtaForm mt-16 mb-20" id='navContact'>
+      <div className="CtaForm mt-16 mb-20 pt-[105px]" id='navContact'>
         <CtaForm></CtaForm>
       </div>
       <div className="Footer">

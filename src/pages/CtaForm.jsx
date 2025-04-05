@@ -22,7 +22,7 @@ const CtaForm = () => {
         >
           We’ll Handle the Marketing.
         </GradientText>
-        <div className="text-2xl text-center mb-10 bg-[#0F1014]">Focus on what you do best, and we’ll make sure the right people find you. Sound like a plan?</div>
+        <div className="text-2xl text-center mb-10 bg-black">Focus on what you do best, and we’ll make sure the right people find you. Sound like a plan?</div>
       </div>
 
 
