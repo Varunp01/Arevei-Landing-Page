@@ -294,7 +294,7 @@ const GooeyNav = ({
         >
           <ul
             ref={navRef}
-            className="flex gap-8 list-none p-0 px-4 m-0 relative z-[3]"
+            className="flex justify-around flex-wrap gap-8 list-none p-0 m-0 relative z-[3]"
             style={{
               color: "white",
               textShadow: "0 1px 1px hsl(205deg 30% 10% / 0.2)",

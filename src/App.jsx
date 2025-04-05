@@ -20,7 +20,8 @@ function App() {
   let AreveiLogo="https://i.ibb.co/fzFYYLby/arevei-favicon.png";
   return (
     <>
-      <div className="Navbar fixed w-full !z-[999]">
+      <div className="Navbar fixed w-full !z-[999] h-[115px] bg-black justify-between flex items-center sm:px-10 px-5">
+      <img src="https://i.ibb.co/k44bRCt/Arevei.png" alt="LOGO"  className='!h-[90px] px-5'/>
         <Navbar></Navbar>
       </div>
       <div className="md:flex items-center overflow-hidden min-h-[100vh] pt-[20px]" id='navHome'>
