@@ -23,7 +23,7 @@ function App() {
       <div className="Navbar fixed w-full">
         <Navbar></Navbar>
       </div>
-      {/* <div className="md:flex items-center overflow-hidden min-h-[100vh]" id='navHome'>
+      <div className="md:flex items-center overflow-hidden min-h-[100vh]" id='navHome'>
         <Hero></Hero>
         <SolarSystem centerImage={AreveiLogo} orbitingWords={words} />
       </div>
@@ -53,7 +53,7 @@ function App() {
       </div>
       <div className="Footer">
         <Footer></Footer>
-      </div> */}
+      </div>
     </>
   )
 }
