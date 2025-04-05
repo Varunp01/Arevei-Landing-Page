@@ -13,20 +13,24 @@ import OurBlog from './pages/OurBlog';
 import Testimonial from './pages/Testimonial';
 import CtaForm from './pages/CtaForm';
 import Footer from './pages/Footer';
+import Navbar from './pages/Navbar';
 
 function App() {
   const words = ['WEB DEV', 'DIGITAL MARKETING', 'LOGO CREATION', 'WORDPRESS DEV'];
   let AreveiLogo="https://i.ibb.co/fzFYYLby/arevei-favicon.png";
   return (
     <>
-      <div className="md:flex items-center overflow-hidden min-h-[100vh]">
+      <div className="Navbar fixed w-full">
+        <Navbar></Navbar>
+      </div>
+      {/* <div className="md:flex items-center overflow-hidden min-h-[100vh]" id='navHome'>
         <Hero></Hero>
         <SolarSystem centerImage={AreveiLogo} orbitingWords={words} />
       </div>
-      <div className="aboutus">
+      <div className="aboutus" id='navAbout'>
         <About></About>
       </div>
-      <div className="Services my-20">
+      <div className="Services my-20" id='navService'>
         <Services></Services>
       </div>
       <div className="HowWeWork mt-16">
@@ -44,12 +48,12 @@ function App() {
       <div className="Testimonial mt-16 mb-20">
         <Testimonial></Testimonial>
       </div>
-      <div className="CtaForm mt-16 mb-20">
+      <div className="CtaForm mt-16 mb-20" id='navContact'>
         <CtaForm></CtaForm>
       </div>
       <div className="Footer">
         <Footer></Footer>
-      </div>
+      </div> */}
     </>
   )
 }

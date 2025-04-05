@@ -10,7 +10,7 @@ const CtaForm = () => {
           colors={["#AF3C52, #4466B0, #56ADAC, #6EBD71"]}
           animationSpeed={3}
           showBorder={false}
-          className="custom-class text-6xl text-center"
+          className="custom-class text-6xl text-center  leading-normal"
         >
           You Run the Business,
         </GradientText>
@@ -18,7 +18,7 @@ const CtaForm = () => {
           colors={["#AF3C52, #4466B0, #56ADAC, #6EBD71"]}
           animationSpeed={3}
           showBorder={false}
-          className="custom-class text-6xl text-center"
+          className="custom-class text-6xl text-center leading-normal"
         >
           We’ll Handle the Marketing.
         </GradientText>
