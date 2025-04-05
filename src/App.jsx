@@ -26,7 +26,7 @@ function App() {
       <div className="aboutus">
         <About></About>
       </div>
-      <div className="Services">
+      <div className="Services my-20">
         <Services></Services>
       </div>
       <div className="HowWeWork mt-16">
