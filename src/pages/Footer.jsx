@@ -7,26 +7,26 @@ const Footer = () => {
       <div className="footerContainer flex justify-around items-center flex-wrap bg-blacks">
         <div className="">
           <div className="my-5">
+            <a href="#navHome">
             <button class="button" data-text="Awesome">
               <span class="actual-text">&nbsp;HOME&nbsp;</span>
               <span aria-hidden="true" class="hover-text">&nbsp;HOME&nbsp;</span>
-            </button><br></br>
+            </button></a><br></br>
+            <a href="#navAbout">
             <button class="button" data-text="Awesome">
               <span class="actual-text">&nbsp;About_Us&nbsp;</span>
               <span aria-hidden="true" class="hover-text">&nbsp;About_Us&nbsp;</span>
-            </button><br></br>
+            </button></a><br></br>
+            <a href="#navService">
             <button class="button" data-text="Awesome">
-              <span class="actual-text">&nbsp;Digital_Marketing&nbsp;</span>
-              <span aria-hidden="true" class="hover-text">&nbsp;Digital_Marketing&nbsp;</span>
-            </button><br></br>
+              <span class="actual-text">&nbsp;Services&nbsp;</span>
+              <span aria-hidden="true" class="hover-text">&nbsp;Services&nbsp;</span>
+            </button></a><br></br>
+            <a href="#navContact">
             <button class="button" data-text="Awesome">
-              <span class="actual-text">&nbsp;Branding&nbsp;</span>
-              <span aria-hidden="true" class="hover-text">&nbsp;Branding&nbsp;</span>
-            </button><br></br>
-            <button class="button" data-text="Awesome">
-              <span class="actual-text">&nbsp;Web_Development&nbsp;</span>
-              <span aria-hidden="true" class="hover-text">&nbsp;Web_Development&nbsp;</span>
-            </button><br></br>
+              <span class="actual-text">&nbsp;Contact&nbsp;</span>
+              <span aria-hidden="true" class="hover-text">&nbsp;Contact&nbsp;</span>
+            </button></a><br></br>
           </div>
         </div>
         <div className="my-5 text-center">
@@ -52,12 +52,12 @@ const Footer = () => {
               </a>
             </div>
             <button class="button" data-text="Awesome">
-              <span class="actual-text">&nbsp;arevei@arevei.com&nbsp;</span>
-              <span aria-hidden="true" class="hover-text">&nbsp;arevei@arevei.com&nbsp;</span>
+              <span class="actual-text">&nbsp;areveistudio@gmail.com&nbsp;</span>
+              <span aria-hidden="true" class="hover-text">&nbsp;areveistudio@gmail.com&nbsp;</span>
             </button>
             <button class="button my-5" data-text="Awesome">
-              <span class="actual-text">&nbsp;+919999999999&nbsp;</span>
-              <span aria-hidden="true" class="hover-text">&nbsp;+919999999999&nbsp;</span>
+              <span class="actual-text">&nbsp;+91 9625440855&nbsp;</span>
+              <span aria-hidden="true" class="hover-text">&nbsp;+91 9625440855&nbsp;</span>
             </button>
           </div>
         </div>
